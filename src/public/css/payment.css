@@ -1,0 +1,92 @@
+main {
+    width: 85%;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.header__title {
+    font-weight: bold;
+    font-size: 2.4rem;
+    text-align: center;
+    margin: 0;
+}
+
+.header__text {
+    padding: 10px;
+}
+
+.payment-wrap {
+    border: 1px solid lightgrey;
+    padding: 20px;
+}
+
+.payment-inner {
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.payment-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.payment-radio {
+    margin-bottom: 10px;
+}
+
+.radio-list {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.payment-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2rem;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.card-brand__area {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.card-brand__area-img {
+    width: 40px;
+    margin: 0 5px;
+}
+
+.submit-button {
+    display: block;
+    background-color: rgb(255, 73, 73);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    width: 80%;
+    height: 30px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-button:hover {
+    opacity: 0.6;
+}
