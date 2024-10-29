@@ -44,11 +44,11 @@ coachtechブランドのアイテムを出品する、ある企業が開発し�
 お気に入り追加/削除、商品へのコメント投稿/削除、プロフィール変更、商品出品、購入
 
 ## 使用技術
-#### フロントエンドのフレームワーク: Javascript
-#### バックエンドのフレームワーク:  Laravel
-#### バックエンドの言語: PHP
-#### ミドルウェア: laravel-fortify, Stripe
-#### インフラ: Docker
+フロントエンドのフレームワーク: Javascript  
+バックエンドのフレームワーク:  Laravel  
+バックエンドの言語: PHP  
+ミドルウェア: laravel-fortify, Stripe  
+インフラ: Docker  
 
 ## テーブル設計及びER図
 ![Alt text](img/ER.png)
