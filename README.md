@@ -22,7 +22,7 @@ coachtechフリマ
 
 coachtechブランドのアイテムを出品する、ある企業が開発した独自のフリマアプリ
 
-![Alt text](img/home.png)
+![Alt text](src/public/img/home.png)
 
 ## 環境
 
@@ -51,42 +51,62 @@ coachtechブランドのアイテムを出品する、ある企業が開発し�
 インフラ: Docker  
 
 ## テーブル設計及びER図
-![Alt text](img/ER.png)
+![Alt text](src/public/img/ER.png)
 
 ## 開発環境構築
 
 ## 1. リポジトリのクローンとDocker起動
 ### クローン
+```
 $ git clone https://github.com/aizawamisa/flea.git
+```
 
 ### Docker起動
+```
 $ docker compose up -d --build
+```
 
 ### phpコンテナに入る
+```
 $docker compose exec php bash
+```
 
 ## 2. Composerのインストール
+```
 $ composer install
+```
 
 ## 3. .envの作成、環境設定の記述
+```
 $ cp .env.local .env
+```
 
 ## 4. アプリケーションキー作成
+```
 $ php artisan key:generate
+```
 
 ## 5. データベースの設定
+```
 $ php artisan migrate --seed
+```
 
 ## 6. シンボリックリンクの作成
+```
 $ php artisan storage:link
+```
 
 ## 7. ディレクトリ権限の変更
+```
 $ sudo chmod -R 775 storage  
 $ sudo chmod -R 775 bootstrap/cache
+```
 
 ## 8. CSS を変更する場合、npmのインストール
+```
 $ npm install  
 $ npm run watch
+```
 
 ### ダミーデータの説明
 ログインメール : test@test.com  
