@@ -20,9 +20,12 @@ coachtechフリマ
 
 ## サービスについて
 
-coachtechブランドのアイテムを出品する、ある企業が開発した独自のフリマアプリ
+coachtechブランドのアイテムを出品する、ある企業が開発した独自のフリマアプリ  
 
-![Alt text](src/public/img/home.png)
+アプリケーションURL: http://localhost  
+phpMyAdmin URL: http://localhost:8080  
+
+![Alt text](src/public/img/home.png)  
 
 ## 環境
 
